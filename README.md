@@ -26,7 +26,7 @@ If it is not then use this command to set default
 $rvm --default use n.n.n
 
 NOW run this script
-$bach cloud9update.sh 
+$bash cloud9update.sh 
 
 it will ask for you to google the latest version of ruby 
 
