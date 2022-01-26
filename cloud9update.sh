@@ -9,12 +9,12 @@ echo "Running apt-get update"
 sudo apt-get update
 echo "FINISHED WITH updating apt-get"
 echo
-echo "update Ruby Version Manager - rvm "
-echo 
-rvm get stable
-# next command makes sure we reload the updated version into this shell
-rvm reload
-echo "FINISHED updating rvm"
+# echo "update Ruby Version Manager - rvm "
+# echo 
+# rvm get stable
+# # next command makes sure we reload the updated version into this shell
+# rvm reload
+# echo "FINISHED updating rvm"
 
 # # REMOVE OLD VERSION OF RUBY
 # rvmcurrent=$(rvm current)
@@ -24,21 +24,21 @@ echo "FINISHED updating rvm"
 # echo "FINISHED removing old ruby version $rvmcurrent"
 # echo
 
-# Get Ruby Version to install 
-echo "go google [ruby latest version] and hit enter when finished "
-read junkanswer
-# go google 'ruby latest version' 
-# click on DOWNLOAD RUBY … look for latest version
-# example 3.1.0 and enter it into the following command
-echo "Enter the latest Ruby Version: in n.n.n format"
-read rubyversion
-echo "The ruby Version we will install is : $rubyversion"
-rvm install $rubyversion
-# Change the default RVM version
-rvm --default use  $rubyversion
-# check the version 
-echo "The current ruby version is :"
-ruby -v
+# # Get Ruby Version to install 
+# echo "go google [ruby latest version] and hit enter when finished "
+# read junkanswer
+# # go google 'ruby latest version' 
+# # click on DOWNLOAD RUBY … look for latest version
+# # example 3.1.0 and enter it into the following command
+# echo "Enter the latest Ruby Version: in n.n.n format"
+# read rubyversion
+# echo "The ruby Version we will install is : $rubyversion"
+# rvm install $rubyversion
+# # Change the default RVM version
+# rvm --default use  $rubyversion
+# # check the version 
+# echo "The current ruby version is :"
+# ruby -v
 
 # UPDATE ALL GEMS
 echo "Update all the GEMS"
