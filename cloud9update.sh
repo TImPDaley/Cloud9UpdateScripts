@@ -97,6 +97,9 @@ echo
 echo "Postgres version is :"
 psql --version
 echo
+echo "Install Postgres libpq-dev package "
+sudo apt install libpq-dev
+echo
 Yellow='\033[0;33m'       # Yellow
 Blue='\033[0;34m'         # Blue
 Red='\033[0;31m'          # Red
