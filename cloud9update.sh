@@ -122,3 +122,8 @@ echo
 echo "\q"
 echo "exit"
 echo -e  "${Red}### THAT IS IT >>> YOUR DONE  >>>>>>>>>>>>>>>>>>>>>${Color_Off}"
+
+## GIT UPDATE USER PRIOR TO MAKING REPO ETC 
+# git config --global user.name "John Doe"
+# git config --global user.email "john@doe.org"
+
